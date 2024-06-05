@@ -1,4 +1,4 @@
-class conversor_de_medidas:
+class ConversorMedidas:
     def _init_(self):
         pass
 
@@ -9,7 +9,7 @@ class conversor_de_medidas:
     def converter_M_para_CM():
         pass
     
-resultado= conversor_de_medidas.converter_CM_para_M(100)
+resultado= ConversorMedidas.converter_CM_para_M(100)
 print('Resultado: ', resultado)
 
     
