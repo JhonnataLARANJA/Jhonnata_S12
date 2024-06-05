@@ -6,8 +6,9 @@ class ConversorMedidas:
         valor_metros=valor_cm /100
         return valor_metros
     
-    def converter_M_para_CM():
-        pass
+    def converter_M_para_CM(valor_m):
+        valor_cm=valor_m * 100
+        return valor_cm
     
 resultado= ConversorMedidas.converter_CM_para_M(100)
 print('Resultado: ', resultado)
